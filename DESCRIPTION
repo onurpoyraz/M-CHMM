@@ -1,0 +1,16 @@
+Package: M-CHMM
+Type: Package
+Title: Mixture of Coupled Hidden Markov Models
+Version: 1.0.0
+Author: Onur Poyraz
+Maintainer: Onur Poyraz <onur.poyraz@aalto.fi>
+Description: This package allows MCMC sampling on coupled HMM
+License: MIT License
+Encoding: UTF-8
+LazyData: true
+Imports:
+    Rcpp,
+    RcppArmadillo,
+    R6, loo
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.1.2
